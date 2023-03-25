@@ -1,5 +1,4 @@
 import fastify from 'fastify'
-// import crypto from 'node:crypto'
 import { env } from './env'
 import { transactionsRoutes } from './routes/transactions'
 
