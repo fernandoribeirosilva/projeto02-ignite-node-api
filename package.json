@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "vitest",
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix"
@@ -16,7 +17,8 @@
     "@types/node": "^18.15.3",
     "eslint": "^8.36.0",
     "tsx": "^3.12.5",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vitest": "^0.29.7"
   },
   "dependencies": {
     "@fastify/cookie": "^8.3.0",
